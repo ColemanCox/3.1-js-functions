@@ -15,7 +15,8 @@ function arrayEquals(arr1, arr2) {
  */
 
 function sum(a, b){
-    // YOUR CODE HERE
+    return a+b;
+
 }
 
 console.assert(sum(8, 11) === 19);
@@ -27,16 +28,19 @@ console.assert(sum(4, 100) === 104);
  * Write a function that calculates the sum of all the numbers in an array
  */
 
-function sumOfArray(arr){
-    var sum = 0
-    // YOUR CODE HERE
-    return sum
+function sumOfArray(arr) {
+    var sum = 0;
+
+    for (var i=0; i<arr.length;i++) {
+
+    }
+    return sum;
 }
 
 console.assert(sumOfArray([1, 2]) === 3);
-console.assert(sumOfArray([]) === 0);
-console.assert(sumOfArray([1, 2, 3]) === 6);
-console.assert(sumOfArray([10, 9, 8]) === 27);
+// console.assert(sumOfArray([]) === 0);
+// console.assert(sumOfArray([1, 2, 3]) === 6);
+// console.assert(sumOfArray([10, 9, 8]) === 27);
 
 /**
  * PART 2
@@ -48,6 +52,7 @@ console.assert(sumOfArray([10, 9, 8]) === 27);
  */
 
 function GCD(a, b){
+    a/b sum;
     // YOUR CODE HERE
 }
 
@@ -66,10 +71,10 @@ function LCM(a, b){
     // YOUR CODE HERE
 }
 
-console.assert(LCM(10,10) === 10)
-console.assert(LCM(2,5) === 10)
-console.assert(LCM(3,6) === 6)
-console.assert(LCM(0,1) === 1)
+console.assert(LCM(10,10) === 10);
+console.assert(LCM(2,5) === 10);
+console.assert(LCM(3,6) === 6);
+console.assert(LCM(0,1) === 1);
 
 /**
  * Part 4
@@ -85,8 +90,8 @@ function fizzbuzz(N){
     // YOUR CODE HERE
 }
 
-console.assert(fizzbuzz(1) === ".")
-console.assert(fizzbuzz(2) === "..")
-console.assert(fizzbuzz(3) === "..fizz")
-console.assert(fizzbuzz(5) === "..fizz.buzz")
-console.assert(fizzbuzz(10) === "..fizz.buzzfizz..fizzbuzz")
+console.assert(fizzbuzz(1) === ".");
+console.assert(fizzbuzz(2) === "..");
+console.assert(fizzbuzz(3) === "..fizz");
+console.assert(fizzbuzz(5) === "..fizz.buzz");
+console.assert(fizzbuzz(10) === "..fizz.buzzfizz..fizzbuzz");
