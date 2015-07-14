@@ -16,7 +16,7 @@ function arrayEquals(arr1, arr2) {
 
 function sum(a, b){
     // YOUR CODE HERE
-}
+  return a+b;}
 
 console.assert(sum(8, 11) === 19);
 console.assert(sum(4, 100) === 104);
@@ -28,9 +28,9 @@ console.assert(sum(4, 100) === 104);
  */
 
 function sumOfArray(arr){
-    var sum = 0
+    var sum = 0;
     // YOUR CODE HERE
-    return sum
+    return sum;
 }
 
 console.assert(sumOfArray([1, 2]) === 3);
